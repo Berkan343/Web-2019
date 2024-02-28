@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="headerClass">
+
+
+        
+        <h1 class="ordertext">Siz Sipariş Verin, Biz Hemen Gönderelim</h1>
+        <div class="formDiv">
+            <div class="form-group">
+                <input type="text" placeholder="Yemek Adı" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="text" id="location" placeholder="Bölge Olarak Bulunduğunuz İlçe" class="form-control" />
+            </div>
+            <div class="form-group">
+                <buttton class="foodsearch" onclick="foodsearch();">Yemek Ara</buttton>
+            </div>
+
+        </div>
+        <div class="orderpart">
+            
+            <div class="row orderbilgi">
+                <div class="col-md-6">
+                    <div class="orderjpg">
+                        <img src="img/megaphone.png" width="52" height="52" />
+                    </div> 
+                    <div class="ordert">
+
+                        <h2>Hızlı Sipariş</h2>
+                        <p>Siparişiniz En Hızlı Şekilde Size Gönderilir.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="orderjpg">
+                        <img src="img/boss.png" width="52" height="52" />
+                    </div>
+                    <div class="ordert">
+
+                        <h2>Müşteri Memnuniyeti</h2>
+                        <p>
+                            Müşteri Memnuniyeti Her Zaman Önemsenir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row orderbilgi">
+                <div class="col-md-6">
+                    <div class="orderjpg">
+                        <img src="img/protection.png" width="52" height="52" />
+                    </div>
+                    <div class="ordert">
+
+                        <h2>Güvenli Sipariş</h2>
+                        <p>Güvenle Sipariş Verebilirsiniz.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="orderjpg">
+
+                        <img src="img/boss.png" width="52" height="52" />
+                    </div>
+                    <div class="ordert">
+
+                        <h2>Hizmet Kalitesi</h2>
+                        <p>Her Geçen Gün Daha İyisi İçin Hizmet Vermekteyiz.</p>
+                    </div> 
+                </div> 
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="maintext">
+            <h1>GÜNÜN LEZZETLERİ</h1>
+        </div>
+        <div class="row foodall">
+            <div class="col-md-6 fooddiv">
+                <img src="img/corba.jpg" class="foodimagesize" />
+                <center><h2>Zerdeçallı Havuç Çorbası</h2></center>
+                <p>Havucun çorba içindeki yumuşak yapısı ve aromasının zerdeçalın verdiği renk ve aroma ile esrarengiz birleşimi.</p>
+            </div>
+            <div class="col-md-6 fooddiv">
+                <img src="img/yemek1.jpg" class="foodimagesize" />
+                <center><h2>Yoğurtlu Sebze Çanağı</h2></center>
+                <p>Kapya biber,kavrulmuş nohut,bezelye,mevsim yeşillikleri ve meyveleri ile harmanlanmış yoğurtlu doyurucu bir öğün.</p>
+            </div>
+            <div class="col-md-6 fooddiv">
+                <img src="img/tatli.jpg" class="foodimagesize" />
+                <center><h2>Yaban Mersinli Cheescake</h2></center>
+                <p>Sizlerle limonlu,karamelli,çilekli gibi alışılagelmişlerin dışına çıkıp kendimize özgü yeni bir tat sunduk.</p>
+            </div>
+            <div class="col-md-6 fooddiv">
+                <img src="img/icecek.jpg" class="foodimagesize" />
+                <center><h2>Çay</h2></center>
+                <p>Fincan ve cam bardak şeklinde iki ayrı sunumu mevcuttur.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footerall">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="footertext">Hakkımızda</h1>
+                <p class="footerdown">Sektörde 2002 yılından beri hizmet vermemize rağmen mutfağa olan ilgimiz her zaman varlığını sürdürdü. Hizmet sunduğumuz dönem boyunca ve hizmet vereceğimiz senler boyunca savunduğumuz, benimsediğimiz ve ilke edindiğimiz nokta da tam olarak mutfağa,aromalara,tatlara,yeniliklere olan ilgimiz sevgimizden ileri gelmektedir.</p>
+            </div>
+            <div class="col-md-4">
+                <h1 class="footertext">Sosyal Medya Hesapları</h1>
+                <ul class="menu">
+                    <center><li>Facebook</li>
+                           <li>Instagram</li>
+                           <li>Twitter</li>
+                           <li>Linkedin</li><center>
+                    
+                    
+                  
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h1 class="footertext">İletişim</h1>
+                <p class="footerdown">
+                    <ul>Beylikdüzü Yerleşkesi - Cumhuriyet, 
+                         Turgut Özal Blv. No: 147,34500 
+                         Büyükçekmece/İstanbul </ul>
+                                        
+                    <ul>İletişim Numaramız - 444 1997</ul>
+                    <ul>E-Posta Adresimiz</ul>
+                    <ul> aday@beykent.edu.tr</ul>
+               </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        function foodsearch() {
+            window.open("popUp.html", "_blank",
+                "toolbar=yes,scrollbars=yes,resizable=0,top=300,left=500,width=400,height=320");
+           
+        }
+    </script>
+</body>
+</html>

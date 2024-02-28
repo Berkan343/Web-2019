@@ -1,0 +1,160 @@
+﻿body {
+    font-size: 13px;
+    overflow-x: hidden;
+ 
+}
+.maintext{
+    text-align:center;
+    padding:15px;
+}
+
+
+.foodimagesize {
+   
+    width: 100%;
+    padding: 10px;
+    height: 400px;
+}
+.foodall{
+    margin:30px;
+    
+}
+
+.orderbilgi { 
+    margin-top: 25px;
+    color: white;   
+}
+
+.orderjpg { 
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    background-color: #FFBE00;
+    border-radius: 50%;
+    padding: 8px;
+}
+.orderjpg:hover {
+    background-color: white;;
+}
+
+.orderpart {
+   
+    margin: auto;
+    width: 65%;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+
+.ordertext{
+    text-align:center;
+    color:white;
+    margin-top:50px;
+}
+.ordert {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left:10px;
+}
+
+
+.fooddiv {
+    border: 5px solid #FFBE00;
+}
+
+.formDiv {  
+    background-color: #FF6345;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    text-align:center;
+    padding:15px;
+}
+.foodsearch {
+    background-color: #FFBE00;
+    color:white;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+    .foodsearch:hover {
+        background-color: white;
+        color: #FFBE00;
+    }
+
+input#location {
+    background-image: url('img/placeholder.png');
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;   
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 30px;
+}
+
+    input#location:focus {
+        background-image: none;
+    }
+
+
+
+.headerClass {
+    border: 1px solid black;
+    background-image: url('img/background.jpg');
+    margin: auto;
+    min-height: 800px;
+    max-height: 1200px;
+    width: auto;
+    background-size: 100% 100%;
+    background-position: 40% 60%;
+              
+    background-repeat: no-repeat;
+}
+
+
+
+.footerall {
+    background-color: #FFBE00;
+    margin-top:25px;
+    padding-top:30px;
+}
+.footertext{
+    color:#B22222;
+    text-align:center;
+}
+.footerdown{
+    text-align:center;
+}
+
+
+ul.menu {
+    list-style-type: none;
+  
+}
+
+    ul.menu li {
+       
+        display: table-cell;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        background-color: #B22222;
+        
+            
+    }
+    
+ 
+.errorbackg {
+    background-image: url('img/uyari.jpg');
+    background-repeat:no-repeat;
+}
